@@ -208,8 +208,8 @@
 .order {
     background-image: url("../images/order_bg.png");
     background-repeat: no-repeat;
-    background-position: top center;
-    padding: 180px;
+    background-position: bottom center;
+    padding-bottom: 180px;
     overflow: hidden;
 }
 
@@ -272,4 +272,20 @@
     box-sizing: border-box;
     outline: none;
     border: 1px solid transparent;
+}
+
+/*footer*/
+.footer {
+    padding: 60px 0;
+}
+
+.footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rights {
+    font-size: 16px;
+    line-height: 20px;
 }
